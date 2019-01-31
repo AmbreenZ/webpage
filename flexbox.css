@@ -1,0 +1,170 @@
+
+.main-header{
+    display: flex;
+}
+.img-logo
+{
+    flex: 1;
+}
+.title
+{
+    flex: 1;
+    display: flex;
+}
+.heading{
+    margin: auto;  
+}
+.navbar ul
+{
+
+   display: flex; 
+   list-style: none;
+   flex-flow: row wrap;
+   background: rgb(144, 41, 41);
+   height: 10vh;
+   border-radius: 20px; 
+}
+.navbar ul li{
+    flex: 1;
+    text-align: center;
+    margin-top: 17px;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.img-background
+{
+    background-image: url(/images/bg1.jpg);
+    background-size:cover; 
+}
+.img-text{
+    display: flex;
+    padding: 15% 0;
+   
+}
+.img-text-items
+{
+    color:black;
+    margin: auto;
+   
+    text-align: center;
+    width: 50%;
+}
+.img-text-items h1
+{
+    font-size: 40px !important;
+    font-family: Algerian;
+}
+.main-content{
+    display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   margin-top:50px;
+}
+.child{
+    flex: 1 0 30%;
+}
+.footer-items
+{
+    display: flex;
+background-color: maroon;
+}
+.footer-nav
+{
+flex:3;
+}
+.follow-items {
+    flex: 1;
+ 
+}
+.footer-nav ul{
+    display: flex;
+}
+.follow-items ul{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+{
+    box-sizing: border-box;
+}
+
+/*
+body{
+    margin: 0;
+}
+#main{
+    display: flex;
+    min-height: 100vh /*viewport heigh vw viewport width
+}
+#main>article{
+    flex: 1;
+}
+#main>aside{
+
+    width:20vw;
+    background: grey;
+    
+}
+nav{
+    background: rgb(228, 220, 220);
+    position: sticky;
+    top:0;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+  }
+.logo img{
+    border: none;
+    height: 15vh;
+    width: 15vw;
+}
+  header, footer {
+    background: rgb(248, 221, 240);
+    height: 20vh;
+  }
